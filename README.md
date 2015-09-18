@@ -12,6 +12,13 @@ The first 20 bits from left-to-right is the row index; from 0...MAX_ROWS-1.
 
 The remaining 14 bits are the column index; from 0...MAX_COLS-1.
 
+# functions
+
+1. CELLINDEX(row, col)
+2. INDEX2ADDR(index)
+3. INDEX2ROW(index)
+4. INDEX2COL(index)
+
 # caveats
 
 Since JavaScript doesn't have an unsigned shift left I was forced to resort to
