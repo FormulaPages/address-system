@@ -16,10 +16,4 @@ The remaining 14 bits are the column index; from 0...MAX_COLS-1.
 
 Since JavaScript doesn't have an unsigned shift left I was forced to resort to
 multiplication which is less efficient but will have to do. If you can do fast
-binary math in JavaScript then please send me a pull request. :->
-
-*/
-
-INDEX2ADDR = function(index) { var row = INDEX2ROW(index); return { rowIndex: row, colIndex: index - (row * MAX_COLS) }; },
-INDEX2COL = function(index) { return index - (INDEX2ROW(index) * MAX_COLS); },
-INDEX2ROW = function(index) { return Math.floor(index / MAX_COLS); }
+binary math in JavaScript then please send me a pull request.
