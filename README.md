@@ -8,7 +8,7 @@ The cell index is a value between 0 and 17179869183.
 
 The max value is the binary number '1111111111111111111111111111111111'.
 
-The first 20 bits from left-to-right is the row index; from 0...MAX_ROWS-1.
+The first 20 bits from left-to-right are the row index; from 0...MAX_ROWS-1.
 
 The remaining 14 bits are the column index; from 0...MAX_COLS-1.
 
