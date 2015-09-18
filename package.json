@@ -1,0 +1,19 @@
+{
+  "name": "formula-address-system",
+  "version": "1.0.0",
+  "description": "A spreadsheet address system.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FormulaPages/address-system.git"
+  },
+  "author": "Peter Moresi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FormulaPages/address-system/issues"
+  },
+  "homepage": "https://github.com/FormulaPages/address-system#readme"
+}
