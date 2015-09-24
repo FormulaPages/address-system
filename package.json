@@ -1,6 +1,6 @@
 {
   "name": "formula-address-system",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A spreadsheet address system.",
   "main": "lib/index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/FormulaPages/address-system/issues"
   },
-  "homepage": "https://github.com/FormulaPages/address-system#readme"
+  "homepage": "https://github.com/FormulaPages/address-system#readme",
+  "dependencies": {
+    "formula-constants": "^1.0.2"
+  }
 }

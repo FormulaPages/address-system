@@ -1,4 +1,4 @@
-import {MAX_COLS} from './constants';
+import {MAX_COLS} from 'formula-constants';
 import INDEX2ROW from './INDEX2ROW';
 
 export default function INDEX2ADDR(index) {
